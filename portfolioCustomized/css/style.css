@@ -436,3 +436,12 @@
     background: var(--secondary) !important;
 
 }
+.bodybg{
+    background-color: #21232c !important;
+}
+.txtclrw{
+    color: #ffffffa6 !important;
+}
+.txtclrw h1 h2 h3 h4 h5 h6 p {
+    color: #FFFFFF !important;
+}
