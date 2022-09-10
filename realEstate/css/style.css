@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
+    --primary: #1363DF;
     --secondary: #FF6922;
     --light: #EFFDF5;
     --dark: #0E2E50;
@@ -210,13 +210,18 @@
 
 /*** Icon ***/
 .icon {
-    padding: 15px;
+    height: 70px !important;
+    padding: 0px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     background: #FFFFFF !important;
-    border-radius: 50px;
-    border: 1px dashed var(--primary) !important;
+    border-radius: 10px;
+    /* border: 1px dashed var(--primary) !important; */
+}
+.icon img {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -242,14 +247,14 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    border: #1365df42;
     transition: .5s;
 }
 
 .cat-item:hover div {
     background: var(--primary);
     border-color: transparent;
-}
+    }
 
 .cat-item div * {
     transition: .5s;

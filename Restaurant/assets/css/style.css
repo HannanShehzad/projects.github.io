@@ -1,26 +1,21 @@
-/**
-* Template Name: Restaurantly - v3.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: #070a13;
   color: #fff;
 }
 
 a {
-  color: #cda45e;
+  color: #9EB23B;
   text-decoration: none;
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #77862d;
   text-decoration: none;
 }
 
@@ -39,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #1a1814;
+  background: #0e0118;
 }
 
 #preloader:before {
@@ -47,9 +42,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border: 6px solid #0e0118;
+  border-top-color: #9EB23B;
+  border-bottom-color: #9EB23B;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -89,18 +84,18 @@ h1, h2, h3, h4, h5, h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #cda45e;
+  border: 2px solid #9EB23B;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: #9EB23B;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #cda45e;
-  color: #1a1814;
+  background: #9EB23B;
+  color: #0e0118;
 }
 
 .back-to-top:hover i {
@@ -137,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #d9ba85;
+  color: #77862d;
 }
 
 #topbar .contact-info i span {
@@ -151,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 #topbar .languages ul a {
@@ -211,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
+  border: 2px solid #9EB23B;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -223,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #cda45e;
+  background: #9EB23B;
   color: #fff;
 }
 
@@ -274,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #d9ba85;
+  color: #77862d;
 }
 
 .navbar .dropdown ul {
@@ -307,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .navbar .dropdown:hover > ul {
@@ -394,11 +389,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1a1814;
+  color: #0e0118;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .navbar-mobile .getstarted {
@@ -430,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -479,7 +474,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 span {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 #hero h2 {
@@ -503,11 +498,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border: 2px solid #cda45e;
+  border: 2px solid #9EB23B;
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #cda45e;
+  background: #9EB23B;
   color: #fff;
 }
 
@@ -518,7 +513,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#9EB23B 50%, #9eb23b6c 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -557,14 +552,14 @@ h1, h2, h3, h4, h5, h6 {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(205, 164, 94, 0.7);
+  border: 5px solid #9EB23B;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #cda45e;
+  border-left: 15px solid #9EB23B;
   transform: scale(20);
 }
 
@@ -650,7 +645,7 @@ section {
 }
 
 .section-bg {
-  background-color: #1a1814;
+  background-color: #0e0118;
 }
 
 .section-title {
@@ -684,7 +679,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 /*--------------------------------------------------------------
@@ -778,8 +773,8 @@ section {
   height: 60px;
   z-index: 1;
   content: '';
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-left: 5px solid #9EB23B;
+  border-top: 5px solid #9EB23B;
   transition: .5s;
 }
 
@@ -791,8 +786,8 @@ section {
   height: 60px;
   z-index: 2;
   content: '';
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid #9EB23B;
+  border-bottom: 5px solid #9EB23B;
   transition: .5s;
 }
 
@@ -827,7 +822,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .about .content p:last-child {
@@ -847,14 +842,14 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #1a1814;
+  background: #0e0118;
 }
 
 .why-us .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .why-us .box h4 {
@@ -873,7 +868,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cda45e;
+  background: #9EB23B;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -908,7 +903,7 @@ section {
 }
 
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .menu #menu-flters li:last-child {
@@ -935,7 +930,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -947,7 +944,7 @@ section {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #1a1814;
+  background: #0e0118;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -956,16 +953,16 @@ section {
 }
 
 .menu .menu-content a:hover {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .menu .menu-content span {
-  background: #1a1814;
+  background: #0e0118;
   position: relative;
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .menu .menu-ingredients {
@@ -993,23 +990,23 @@ section {
   transition: 0.3s;
   color: #fff;
   border-radius: 0;
-  border-right: 2px solid #cda45e;
+  border-right: 2px solid #9EB23B;
   font-weight: 600;
   font-size: 15px;
 }
 
 .specials .nav-link:hover {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .specials .nav-link.active {
-  color: #1a1814;
-  background: #cda45e;
-  border-color: #cda45e;
+  color: #0e0118;
+  background: #9EB23B;
+  border-color: #9EB23B;
 }
 
 .specials .nav-link:hover {
-  border-color: #cda45e;
+  border-color: #9EB23B;
 }
 
 .specials .tab-pane.active {
@@ -1084,7 +1081,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .events .event-item .price {
@@ -1095,7 +1092,7 @@ section {
 }
 
 .events .event-item .price span {
-  border-bottom: 2px solid #cda45e;
+  border-bottom: 2px solid #9EB23B;
 }
 
 .events .event-item ul {
@@ -1110,7 +1107,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .events .event-item p:last-child {
@@ -1130,7 +1127,7 @@ section {
 }
 
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
+  background-color: #9EB23B;
 }
 
 /*--------------------------------------------------------------
@@ -1187,8 +1184,8 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
-  border-top-color: #1a1814;
+  border: 3px solid #9EB23B;
+  border-top-color: #0e0118;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1215,7 +1212,7 @@ section {
 }
 
 .book-a-table .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
-  border-color: #cda45e;
+  border-color: #9EB23B;
 }
 
 .book-a-table .php-email-form input {
@@ -1227,7 +1224,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type="submit"] {
-  background: #cda45e;
+  background: #9EB23B;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1311,7 +1308,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
+  background-color: #9EB23B;
 }
 
 /*--------------------------------------------------------------
@@ -1392,7 +1389,7 @@ section {
 }
 
 .chefs .member .social a:hover {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 .chefs .member .social i {
@@ -1428,7 +1425,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #9EB23B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1502,8 +1499,8 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
-  border-top-color: #1a1814;
+  border: 3px solid #9EB23B;
+  border-top-color: #0e0118;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1530,7 +1527,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #cda45e;
+  border-color: #9EB23B;
 }
 
 .contact .php-email-form input {
@@ -1542,7 +1539,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #cda45e;
+  background: #9EB23B;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1627,7 +1624,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #cda45e;
+  background: #9EB23B;
   color: #fff;
   text-decoration: none;
 }
@@ -1652,7 +1649,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #cda45e;
+  color: #9EB23B;
   font-size: 18px;
   line-height: 1;
 }
@@ -1675,7 +1672,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #cda45e;
+  color: #9EB23B;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1704,7 +1701,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #cda45e;
+  background: #9EB23B;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
