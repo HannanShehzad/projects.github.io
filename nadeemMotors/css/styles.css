@@ -1127,6 +1127,13 @@ a:hover.back-to-top {
     .copyright .statement {
         text-align: right;
     }
+    .footer-r{
+        width: 60%;
+        text-align: right;
+        margin-right: 20px;
+        margin-left: 100px;
+
+    }
     /* end of copyright */
 
     /* Extra Pages */
