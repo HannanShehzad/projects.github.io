@@ -1,5 +1,4 @@
 {
-  "homepage":"https://hannanshehzad.github.io/projects.github.io/PortfolioReact",
   "name": "nextly-template",
   "version": "0.1.0",
   "description": "Nextly Landing Page Template",
@@ -7,20 +6,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "start": "next start"
   },
   "repository": {
-    "type": "projects.github.io",
-    "url": "https://hannanshehzad.github.io/projects.github.io/PortfolioReact"
+    "type": "git",
+    "url": "#"
   },
   "keywords": [
     "nextjs",
     "tailwindcss",
     "free"
   ],
-  "author": "Hannan",
+  "author": "Surjith S M",
   "license": "ISC",
   "dependencies": {
     "@emotion/css": "^11.10.6",
@@ -39,7 +36,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "eslint-config-prettier": "^8.8.0",
-    "gh-pages": "^5.0.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.1"
   }
