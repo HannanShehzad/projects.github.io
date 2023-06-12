@@ -20,7 +20,7 @@
     "tailwindcss",
     "free"
   ],
-  "author": "Surjith S M",
+  "author": "Hannan",
   "license": "ISC",
   "dependencies": {
     "@emotion/css": "^11.10.6",
