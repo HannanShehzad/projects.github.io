@@ -12,8 +12,8 @@
     "deploy":"gh-pages -d build"
   },
   "repository": {
-    "type": "git",
-    "url": "https://gituhb.com/web3templates/nextly-template"
+    "type": "projects.github.io",
+    "url": "https://hannanshehzad.github.io/projects.github.io/PortfolioReact"
   },
   "keywords": [
     "nextjs",
