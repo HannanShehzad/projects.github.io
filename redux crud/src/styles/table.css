@@ -1,0 +1,16 @@
+.mainWrap{
+    /* border: 2px solid black; */
+    margin-left: 10% !important;
+    margin-right: 10% !important ;
+    
+}
+
+.editBtn{
+    color: blue;
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+}
+.tableWrap{
+    border: 2px solid black;
+    margin-bottom: 10vh;
+}
